@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+F1_TS1,Chrome 68.0.3440.106,,2018-09-19 11:00:16,2018-09-19 11:00:46,30.025s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 68.0.3440.106,,2018-09-19 11:00:17,2018-09-19 11:00:45,28.028s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-19 11:00:17,2018-09-19 11:00:27,10.242s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,Navigate to login page,2018-09-19 11:00:27,2018-09-19 11:00:41,13.860s,PASSED
+sendKeys,Chrome 68.0.3440.106,Enter username,2018-09-19 11:00:41,2018-09-19 11:00:41,0.158s,PASSED
+sendKeys,Chrome 68.0.3440.106,Enter password,2018-09-19 11:00:41,2018-09-19 11:00:41,0.091s,PASSED
+click,Chrome 68.0.3440.106,Click on login button,2018-09-19 11:00:41,2018-09-19 11:00:45,3.201s,PASSED
+"Statement - actual = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Home/txt_UserPanel), STOP_ON_FAILURE)",Chrome 68.0.3440.106,Get user welcome text,2018-09-19 11:00:45,2018-09-19 11:00:45,0.089s,PASSED
+"Statement - expected = ""Welcome, patest01 [Logout]""",Chrome 68.0.3440.106,,2018-09-19 11:00:45,2018-09-19 11:00:45,0.001s,PASSED
+verifyMatch,Chrome 68.0.3440.106,Verify the welcome text,2018-09-19 11:00:45,2018-09-19 11:00:45,0.022s,PASSED
