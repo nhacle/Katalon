@@ -4,7 +4,7 @@
    <name>Katalon</name>
    <tag></tag>
    <UUID>0f67f836-d900-4b65-8117-2dc9ff035623</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>
@@ -19,6 +19,10 @@
          <systemFolderConfiguration>
             <url>Include/features</url>
          </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <type>GENERIC</type>
 </Project>
