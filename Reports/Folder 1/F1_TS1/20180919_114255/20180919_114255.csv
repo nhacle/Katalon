@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+F1_TS1,Firefox 60.0,,2018-09-19 11:42:59,2018-09-19 11:43:19,20.080s,PASSED
+,,,,,,
+Test Cases/Login,Firefox 60.0,,2018-09-19 11:42:59,2018-09-19 11:43:18,18.699s,PASSED
+openBrowser,Firefox 60.0,,2018-09-19 11:43:00,2018-09-19 11:43:14,13.985s,PASSED
+navigateToUrl,Firefox 60.0,Navigate to login page,2018-09-19 11:43:14,2018-09-19 11:43:15,1.729s,PASSED
+sendKeys,Firefox 60.0,Enter username,2018-09-19 11:43:15,2018-09-19 11:43:15,0.100s,PASSED
+sendKeys,Firefox 60.0,Enter password,2018-09-19 11:43:15,2018-09-19 11:43:15,0.036s,PASSED
+click,Firefox 60.0,Click on login button,2018-09-19 11:43:15,2018-09-19 11:43:18,2.425s,PASSED
+"Statement - actual = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Home/txt_UserPanel), STOP_ON_FAILURE)",Firefox 60.0,Get user welcome text,2018-09-19 11:43:18,2018-09-19 11:43:18,0.053s,PASSED
+"Statement - expected = ""Welcome, patest01 [Logout]""",Firefox 60.0,,2018-09-19 11:43:18,2018-09-19 11:43:18,0.000s,PASSED
+verifyMatch,Firefox 60.0,Verify the welcome text,2018-09-19 11:43:18,2018-09-19 11:43:18,0.019s,PASSED
