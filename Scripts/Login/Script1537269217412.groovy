@@ -18,6 +18,9 @@ WebUI.openBrowser(null)
 'Navigate to login page'
 WebUI.navigateToUrl("http://192.168.74.25/patest", FailureHandling.STOP_ON_FAILURE)
 
+'Click on login tab'
+WebUI.click(findTestObject('Object Repository/Page_Login/tab_Login'), FailureHandling.STOP_ON_FAILURE)
+
 'Enter username'
 WebUI.sendKeys(findTestObject('Object Repository/Page_Login/txt_Username'), "patest01", FailureHandling.STOP_ON_FAILURE)
 
